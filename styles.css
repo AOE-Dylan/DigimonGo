@@ -1,0 +1,43 @@
+#digimon_go{
+  margin: 10%;
+  float: left;
+}
+
+.menu{
+  margin: 10%; 
+  float: right;
+}
+
+.container{
+  background-color: blue;
+}
+
+.container2{
+  background-color: grey;
+}
+
+.main{
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+  float: left;
+}
+
+#one{
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+}
+
+#two{
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+}
+
+#three{
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+}
+
+h1{
+  color: blue;
+  border-bottom: 1px solid=grey;
+}
