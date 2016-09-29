@@ -10,13 +10,16 @@ header{
   margin-right: 5px;
   margin-bottom: 5px;
   float: left;
+  position: relative;
+  left: 75px;
 }
 
 .menu{
-  margin: 0;
   float: right;
   list-style-type: none;
   margin-bottom: 10px;
+  position: absolute;
+  left: 775px;
 }
 .menu ul li{
   display: inline-block;
@@ -25,27 +28,37 @@ header{
   margin-bottom: 10px;
 }
 
-.container{
-  background-color: salmon;
+.blueimg{
+  position: relative;
+  top: 150px;
+  left: 400px;
+  background-image: url(Assets/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 433px;
+  width: 956px;
 }
-
-.container2{
-  background-color: grey;
-}
-#BackImg{
-  z-index: -1;
-  float: right;
-}
-
 
 .main{
-  background-color: orange;
   font-family: 'Lato', sans-serif;
   border-radius: 25px;
   border: 3px solid grey;
   padding: 5px 5px 5px 5px;
-  display: inline-block;
-  max-width: 300px;
+  max-width: 450px;
+  display: inline;
+  position: fixed;
+  top: 150px;
+  left: 75px;
+  float: left;
+}
+
+img.talkie{
+  z-index: -1;
+  z-index: right;
+}
+
+.container2{
+  background-color: #3d3d29;
 }
 
 #one{
@@ -54,6 +67,11 @@ header{
   border-radius: 25px;
   padding: 5px 5px 5px 5px;
   float: right;
+  display: inline-block;
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  margin-right: 20px;
 }
 
 #two{
@@ -62,6 +80,11 @@ header{
   border-radius: 25px;
   padding: 5px 5px 5px 5px;
   float: right;
+  display: inline-block;
+  position: fixed;
+  left: 425px;
+  bottom: 150px;
+  margin-right: 20px;
 }
 
 #three{
@@ -70,10 +93,21 @@ header{
   border-radius: 25px;
   padding: 5px 5px 5px 5px;
   float: right;
+  display: inline-block;
+  position: fixed;
+  bottom: 150px;
+  left: 725px;
 }
 
 h1{
-  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Sarpanch-Regular', sans-serif;
   color: blue;
-  border-bottom: 1px solid=grey;
+  text-decoration:underline;
+  text-underline-position: bottom 10px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0em;
+  left: 50%;
 }
