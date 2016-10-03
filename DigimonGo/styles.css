@@ -1,0 +1,124 @@
+body{
+  font-size: 14px;
+}
+
+header{
+  height: auto;
+  width: auto;
+}
+#digimon_go{
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: left;
+  position: relative;
+  left: 75px;
+}
+
+.menu{
+  float: right;
+  list-style-type: none;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 775px;
+}
+.menu ul li{
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.blueimg{
+  position: relative;
+  padding-left: 300px;
+  top: 75px;
+  background-image: url(Assets/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+  height: 583px;
+  width: 1056px;
+}
+
+.main{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 25px;
+  border: 3px solid grey;
+  padding: 5px 100px 5px 5px;
+  max-width: 450px;
+  display: inline;
+  position: relative;
+  bottom: 375px;
+  right: 150px;
+  left: 5px;
+  float: left;
+}
+
+#talkie{
+  position: absolute;
+  z-index: -1;
+  z-index: right;
+}
+
+.container2{
+  font-size: 16px;
+}
+
+#grey{
+  back
+}
+
+#one{
+  border: 3px solid grey;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
+  padding: 5px 5px 40px 5px;
+  float: right;
+  display: inline-block;
+  position: fixed;
+  bottom: 90px;
+  left: 200px;
+  margin-right: 20px;
+}
+
+#two{
+  border: 3px solid grey;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+  float: right;
+  display: inline-block;
+  position: fixed;
+  left: 605px;
+  bottom: 90px;
+  margin-right: 20px;
+}
+
+#three{
+  border: 3px solid grey;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+  float: right;
+  display: inline-block;
+  position: fixed;
+  bottom: 90px;
+  left: 990px;
+}
+
+h1{
+  font-family: 'Sarpanch', sans-serif;
+  color: blue;
+  text-decoration:underline;
+}
+
+footer{
+  position: fixed;
+  bottom: 0em;
+  left: 50%;
+}
